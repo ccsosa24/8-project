@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    display: inline-block;  
+    grid-template-columns: 25vw 25vw;
+    grid-gap: 5vw;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 50vw;
+    height: 15vh;
+    background: linear-gradient(to right, transparent);
+    text-align: center;
+    margin-left: 300px;
+
+  }
+  
+  
+  .button1, .button2, .button3 {
+      
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      background-color: transparent;
+      font-family: 'Gochi Hand', cursive;
+      font-size: 1.6em;
+      transition: 0.5s ease;
+      cursor: pointer;
+      width: 200px;
+  }
+  
+  .button:nth-child(1) {
+      color: #5495ce;
+      border: 2px solid #5495ce;
+  }
+  
+  .button:nth-child(1):hover {
+    color: #3f4850;
+    background-color: #5495ce;
+    box-shadow: 0 0 10px #5495ce,
+                0 0 40px #5495ce,
+                0 0 80px #5495ce;
+  }
+  
+  .button:nth-child(2) {
+      color: hsl(330, 97%, 46%);
+      border: 2px solid hsl(330, 97%, 46%);
+  }
+  
+  .button:nth-child(2):hover {
+    color: #3f4850;
+    background-color: hsl(330, 97%, 46%);
+    box-shadow: 0 0 10px hsl(330, 97%, 46%),
+                0 0 40px hsl(330, 97%, 46%),
+                0 0 80px hsl(330, 97%, 46%);
+  }
+  
+  .button:nth-child(3) {
+      color: #efa3bd;
+      border: 2px solid #efa3bd;
+  }
+  
+  .button:nth-child(3):hover {
+    color: #3f4850;
+    background-color: #efa3bd;
+    box-shadow: 0 0 10px #efa3bd,
+                0 0 40px #efa3bd,
+                0 0 80px #efa3bd;
+  }
+  
+  .button:nth-child(4) {
+      color: #ffeb3b;
+      border: 2px solid #ffeb3b;
+  }
+  
+  .button:nth-child(4):hover {
+    color: #3f4850;
+    background-color: #ffeb3b;
+    box-shadow: 0 0 10px #ffeb3b,
+                0 0 40px #ffeb3b,
+                0 0 80px #ffeb3b;
+  }
+  
+  
+  
+  @media only screen and (max-width: 850px) {
+    #main {
+      grid-template-columns: 40vw 40vw;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .button {
+      font-size: 2.5em;
+    }
+  }
+  
+  
+  
